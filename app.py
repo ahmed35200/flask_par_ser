@@ -1,5 +1,4 @@
 from flask import  Flask, flash, request, redirect, url_for, jsonify
-from flask_session import Session
 from flask import request
 import numpy
 import os
