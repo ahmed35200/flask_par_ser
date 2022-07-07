@@ -38,5 +38,4 @@ def up_image():
     print("res=>>", result)
     return jsonify({'prediction': result.tolist()})
 if __name__ == "__main__":
-
   app.run()
